@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Rope Physics</title>
+</head>
+<body>
+  <div id="settings">
+    <button onclick="startSim()" id="simulate">Simulate</button>
+    <input type="range" name="Rigidness" id="rigid" min="1" max="50" title="Rigidness" value="30" onmousemove="updateSettings()">
+  </div>
+  <canvas width="400" height="400">
+</body>
+</html>
