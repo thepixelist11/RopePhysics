@@ -1,18 +1,3 @@
-//TODO: Add this to HTML:
-// ------ In setup:
-// LMB - Place dynamic node or change node to dynamic
-// RMB - Place static node or change node to static
-// MMB - Place stick between two points or from one 
-// Hold space - place line of equidistant nodes
-//       point to empty space to create a new dynamic node at the end
-// ------ In Sim:
-// LMB - Change node to dynamic
-// RMB - Change node to static
-// Drag with MMB - Cut sticks
-// ------ General:
-// Delete - Clear everything
-// Hold x or bs and press LMB or RMB - Delete specific point
-
 // ----------------------- Main Classes
 class Point {
   constructor(x, y, locked = false) {
